@@ -32,9 +32,9 @@ INSERT INTO employee (id, creation_date, modify_date, name) VALUE ('emp000000000
 INSERT INTO employee (id, creation_date, modify_date, name) VALUE ('emp000000000002', now(), now(), 'testUser2');
 INSERT INTO employee (id, creation_date, modify_date, name) VALUE ('emp000000000003', now(), now(), 'testUser3');
 
-INSERT INTO story (id, creation_date, modify_date, text_value, author_id) VALUE ('str000000000001', now(), now(), 'story1', 'emp000000000001');
-INSERT INTO story (id, creation_date, modify_date, text_value, author_id) VALUE ('str000000000002', now(), now(), 'story2', 'emp000000000001');
-INSERT INTO story (id, creation_date, modify_date, text_value, author_id) VALUE ('str000000000003', now(), now(), 'story3', 'emp000000000002');
+INSERT INTO story (id, creation_date, modify_date, text_value, author_id) VALUE ('str000000000001', now(), now(), 'testStory1', 'emp000000000001');
+INSERT INTO story (id, creation_date, modify_date, text_value, author_id) VALUE ('str000000000002', now(), now(), 'testStory2', 'emp000000000001');
+INSERT INTO story (id, creation_date, modify_date, text_value, author_id) VALUE ('str000000000003', now(), now(), 'testStory3', 'emp000000000002');
 
 INSERT INTO subscription (id, creation_date, modify_date, writer_id, subscriber_id) VALUE ('sub000000000001', now(), now(),'emp000000000001', 'emp000000000002');
 INSERT INTO subscription (id, creation_date, modify_date, writer_id, subscriber_id) VALUE ('sub000000000002', now(), now(),'emp000000000001', 'emp000000000003');
