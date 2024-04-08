@@ -10,7 +10,7 @@
             <column  name="id"  value="emp000000000001"/>
             <column  name="creation_date"  value="now()"/>
             <column  name="modify_date"  value="now()"/>
-            <column  name="name"  value="testUser2"/>
+            <column  name="name"  value="testUser1"/>
         </insert>
 
         <insert tableName="employee">

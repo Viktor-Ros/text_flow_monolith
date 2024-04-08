@@ -38,9 +38,9 @@ public class TestData {
     public static String ST_2_ID = "str000000000002";
     public static String ST_3_ID = "str000000000003";
 
-    public static String ST_1_VALUE = "story1";
-    public static String ST_2_VALUE = "story2";
-    public static String ST_3_VALUE = "story3";
+    public static String ST_1_VALUE = "testStory1";
+    public static String ST_2_VALUE = "testStory2";
+    public static String ST_3_VALUE = "testStory3";
     public static String ST_VALUE_NEW = "story4";
     public static String ST_VALUE_UPDATE = "updateStory4";
 
